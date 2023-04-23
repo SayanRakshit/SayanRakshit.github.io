@@ -21,6 +21,7 @@ List of published papers
 * List of published papers
 
 
-## Authors
+## Awards and Scholarship
+* --------------------------
 
 ## Recommendation
