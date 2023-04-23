@@ -1,4 +1,6 @@
 # Sayan Rakshit
+![unnamed](https://user-images.githubusercontent.com/30260441/233859660-74fde19b-bdc7-4ea6-a914-b2e5e4e4af28.jpg)
+
 
 I am a Ph.D. student at IIT Bombay. My keen research interest is on Computer Vision.
 
