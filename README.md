@@ -1,30 +1,24 @@
 # Sayan Rakshit
 
-Simple overview of use/purpose.
+I am a Ph.D. student at IIT Bombay. My keen research interest is on Computer Vision.
 
-## Description
+## Projects
 
-An in-depth paragraph about your project and overview of use.
+List of projects
 
-## Getting Started
+## Published Papers
 
-### Dependencies
+List of published papers
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+### Education
+
+* List of published papers
+* List of published papers
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
-
-### Executing program
-
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
+* List of published papers
+* List of published papers
 
 ## Help
 
