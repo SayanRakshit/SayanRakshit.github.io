@@ -92,6 +92,58 @@
           </tr>
         </tbody></table>
 
+	       <!-- ////////////////     -->
+
+	        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+          <tr onmouseout="ddp_stop()" onmouseover="ddp_start()">
+            <td style="padding:20px;width:30%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id="ddp_image" style="opacity: 0;">
+                  <!--<img src="./sayan_photo/sayan.png" style="margin-top: -40px;" width="200">--></div>
+                <img src="./papers/OSIDA_teaser.png" style="margin-top: -40px;" width="200">
+              </div>
+              <script type="text/javascript">
+                function ddp_start() {
+                  document.getElementById('ddp_image').style.opacity = "1";
+                }
+        
+                function ddp_stop() {
+                  document.getElementById('ddp_image').style.opacity = "0";
+                }
+                ddp_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:70%;vertical-align:middle">
+              <a href="https://arxiv.org/pdf/2409.00530">
+                <papertitle>Incremental Open-set Domain Adaptation </papertitle>
+              </a>
+              <br>
+              <strong>Sayan Rakshit</strong>,
+              <a>Hmrishav Bandyopadhyay,</a><a > Nibaran Das,</a><a href="https://biplab-banerjee.github.io/">Biplab Banerjee</a>
+              
+              
+              <br>
+              <em>Arxiv</em>, 2024
+              <br>
+              <a href="https://arxiv.org/pdf/2409.00530">paper</a>
+              <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:SBADojsoahQJ:scholar.google.com/&output=citation&scisdr=ClHaoNHnEOm7330N6mI:AFWwaeYAAAAAZt8L8mIaRZM1Ih_-Wqz4qDNZyGI&scisig=AFWwaeYAAAAAZt8L8tKB2vCLNYr9ZsYvc9P6luM&scisf=4&ct=citation&cd=-1&hl=en&scfhb=1">bibTeX</a>
+              
+              <p></p>
+              <p>
+                Catastrophic forgetting makes neural network models unstable when learning visual domains consecutively. 
+		      The neural network model drifts to catastrophic forgetting-induced low performance of previously learnt domains when training with new domains.
+		      We illuminate this current neural network model weakness and develop a forgetting-resistant incremental learning strategy. 
+		      Here, we propose a new unsupervised incremental open-set domain adaptation (IOSDA) issue for image classification. 
+		      Open-set domain adaptation adds complexity to the incremental domain adaptation issue since each target domain has more classes than the Source domain. In IOSDA, the model learns training with domain streams phase by phase in incremented time. 
+		      Inference uses test data from all target domains without revealing their identities. 
+
+            </p>
+          </td>
+        </tr>
+
+     
+
 
         <!-- ////////////////     -->
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
@@ -293,7 +345,7 @@ source-domains.
 
 
 
-      <!-- ////////////////     -->
+<!--       ////////////////     -->
 
 
 
@@ -347,7 +399,10 @@ target domain samples
         </tr>
 
 
+<!-- /////////////// -->
 
+		
+      
 
 
 
@@ -356,6 +411,8 @@ target domain samples
 
 
         </tbody></table>
+
+		
 
 				
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
